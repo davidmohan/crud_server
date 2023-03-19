@@ -23,7 +23,7 @@ App.listen(5000, () => {
 })
 
 // DB Connection
-mongoose.connect('mongodb://127.0.0.1:27017/crud', (err) => {
+mongoose.connect('mongodb+srv://qmaze:qmaze%40123@qmaze.0mgvlti.mongodb.net/test', (err) => {
   if (!err) {
     console.log("DB Running!")
   }
