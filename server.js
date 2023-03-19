@@ -19,12 +19,12 @@ App.use('/crud', CrudRouter)
 
 // Listening!
 App.listen(5000, () => {
-  console.log('Server Running!')
+  console.log('Server is Online!')
 })
 
 // DB Connection
 mongoose.connect('mongodb+srv://qmaze:qmaze%40123@qmaze.0mgvlti.mongodb.net/test', (err) => {
   if (!err) {
-    console.log("DB Running!")
+    console.log("DataBase is Online!")
   }
 })
